@@ -1,0 +1,32 @@
+/* Features Section */
+.features {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #F4F4F4;
+    height: 500px;
+}
+
+.feature {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    /* max-height: 500px; */
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px #0003;
+}
+
+.feature h3 {
+    color: #1A73E8;
+    margin-bottom: 1rem;
+}

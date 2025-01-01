@@ -1,17 +1,30 @@
+@import "bootstrap";
+/* todo
+  create default scss class to access across the app, for instance default button styles (success or cancel), forms, spacing etc..) 
+*/
 /* General Reset */
+:root {
+  --bg-color: #FFFFFF;
+  --text-color: #202124;
+  --primary-color: #1A73E8;
+  --secondary-color: #E0E0E0;
+  --btn-hover-color: #155BB5;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 body {
+  background-color: var(--bg-color);
+    color: var(--text-color);
   font-family: 'Roboto', sans-serif;
-    color: #202124;
-    background-color: #FFFFFF;
+  margin: 0;
+    padding: 0;
     line-height: 1.6;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {

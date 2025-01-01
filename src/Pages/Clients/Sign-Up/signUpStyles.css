@@ -1,0 +1,54 @@
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-hover-color);
+    border-color: var(--btn-hover-color);
+}
+
+.form-control {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+form div {
+    margin: 1rem 0
+}
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #1A73E8, #4285F4); */
+    color: #FFFFFF;
+}
+
+.signup-card {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    /* max-width: 400px; */
+    /* width: 100%; */
+}
+
+/* .signup-card div p a {
+    color: red
+} */
+
+.signup-card h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
